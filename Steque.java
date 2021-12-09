@@ -94,7 +94,9 @@ public class Steque<Item> implements Iterable<Item> {
      * checks to see if steque is empty.
      * @return true if steque is empty, false otherwise.
      */
+    //time complexity: O(1), space complexity O(1)
     public boolean isEmpty() {
+        return first == null || last == null;
 
     }
     
